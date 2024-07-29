@@ -184,6 +184,7 @@
 
 
 .right .two {
+    display: block;
     width: 80%;
     height: 320px;
     border: 2px solid #ffffff;
@@ -210,7 +211,7 @@
     border-radius: 15px;
 }
 
-.right .circle_div{
+.right .circle_div {
     width: 100%;
     height: 100px;
     display: flex;
@@ -218,20 +219,21 @@
     align-items: center;
 }
 
-.right .text_div{
+.right .text_div {
     text-align: center;
     width: 100%;
     height: 280px;
 }
-.right .circle{
-    width:75px;
+
+.right .circle {
+    width: 75px;
     height: 75px;
     border: 2px solid #ebf1fc;
     background-color: #ebf1fc;
     border-radius: 50%;
 }
 
-.right button{
+.text_div button {
     color: #ebf1fc;
     background-color: #e72c66;
     border: 2px solid #e72c66;
@@ -241,24 +243,115 @@
     margin-top: 15px;
 }
 
-.right h1{
+.text_div h1 {
     font-size: 24px;
     font-weight: 100;
     margin-top: 15px;
     color: #94b2ed;
 }
 
-.right p{
+.text_div p {
     margin-top: 15px;
     font-size: 16px;
     color: gray;
     line-height: 24px;
 }
 
-.right a{
+.text_div a {
+    color: black;
     font-size: 16px;
     text-decoration: underline;
-    text-decoration-color:#94b2ed ;
+    text-decoration-color: #94b2ed;
+}
+
+.right .circle_div_2 {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right .text_div_2 {
+    text-align: center;
+    width: 100%;
+    height: 240px;
+}
+
+.right .circle_2 {
+    width: 75px;
+    height: 75px;
+    border: 2px solid #ebf1fc;
+    background-color: #ebf1fc;
+    border-radius: 50%;
+}
+
+.text_div_2 button {
+    color: #ebf1fc;
+    background-color: #e72c66;
+    border: 2px solid #e72c66;
+    width: 100px;
+    height: 35px;
+    border-radius: 15px;
+    margin-top: 7px;
+}
+
+.text_div_2 h1 {
+    font-size: 24px;
+    font-weight: 100;
+    margin-top: 15px;
+    color: #94b2ed;
+}
+
+.text_div_2 p {
+    margin-top: 15px;
+    font-size: 14px;
+    color: gray;
+    line-height: 22px;
+}
+
+.text_div_2 a {
+    color: black;
+    font-size: 16px;
+    text-decoration: underline;
+    text-decoration-color: #94b2ed;
+}
+
+@media (max-width:1015px) and (min-width:881px) {
+    .right .circle_div {
+        width: 100%;
+        height: 80px;
+    }
+
+    .right .text_div {
+        width: 100%;
+        height: 300px;
+    }
+
+    .right .circle {
+        width: 60px;
+        height: 60px;
+        border: 2px solid #ebf1fc;
+        background-color: #ebf1fc;
+        border-radius: 50%;
+    }
+
+    .right button {
+        width: 90px;
+        height: 30px;
+        margin-top: 7px;
+    }
+
+    .right h1 {
+        font-size: 18px;
+        margin-top: 15px;
+    }
+
+    .right p {
+        margin-top: 15px;
+        font-size: 14px;
+    }
+    
 }
 
 @media (max-width:880px) and (min-width:601px) {
@@ -363,42 +456,6 @@
     }
 }
 
-@media (max-width:1015px) and (min-width:881px){
-    .right .circle_div{
-        width: 100%;
-        height: 80px;
-    }
-    
-    .right .text_div{
-        width: 100%;
-        height:300px;
-    }
-
-    .right .circle{
-        width:60px;
-        height: 60px;
-        border: 2px solid #ebf1fc;
-        background-color: #ebf1fc;
-        border-radius: 50%;
-    }
-    
-.right button{
-    width: 90px;
-    height: 30px;
-    margin-top: 7px;
-}
-
-.right h1{
-    font-size: 18px;
-    margin-top: 15px;
-}
-
-.right p{
-    margin-top: 15px;
-    font-size: 14px;
-}
-
-}
 
 @media (max-width:600px) {
 
@@ -451,6 +508,7 @@
         font-size: 38px;
         color: #e72c66;
     }
+
     .cards .right {
         display: block;
         width: 100%;
@@ -465,7 +523,7 @@
 
 
     .right .prttwo {
-    
+
         width: 100%;
         height: 600px;
     }
@@ -496,7 +554,7 @@
         height: 270px;
     }
 
-    .right .circle_div{
+    .right .circle_div {
         margin-top: 10px;
         width: 100%;
         height: 50px;
@@ -504,15 +562,15 @@
         justify-content: center;
         align-items: center;
     }
-    
-    .right .text_div{
+
+    .right .text_div {
         text-align: center;
         width: 100%;
         height: 230px;
     }
 
-    .right .circle{
-        width:50px;
+    .right .circle {
+        width: 50px;
         height: 50px;
         border: 2px solid #ebf1fc;
         background-color: #ebf1fc;
