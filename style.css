@@ -1,0 +1,521 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat, sans-serif;
+}
+
+.main {
+    width: 100%;
+    height: auto;
+}
+
+.cover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./images/background.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+
+.grad {
+    background-image: linear-gradient(180deg,
+            hsl(323deg 42% 93%) 0%,
+            hsl(318deg 45% 92%) 4%,
+            hsl(313deg 47% 92%) 9%,
+            hsl(308deg 49% 91%) 13%,
+            hsl(303deg 51% 91%) 18%,
+            hsl(298deg 52% 91%) 23%,
+            hsl(294deg 54% 90%) 27%,
+            hsl(289deg 55% 90%) 32%,
+            hsl(284deg 57% 89%) 36%,
+            hsl(279deg 58% 89%) 41%,
+            hsl(274deg 59% 89%) 46%,
+            hsl(270deg 60% 88%) 51%,
+            hsl(265deg 61% 88%) 56%,
+            hsl(260deg 62% 87%) 60%,
+            hsl(255deg 63% 87%) 65%,
+            hsl(250deg 64% 87%) 70%,
+            hsl(246deg 65% 86%) 75%,
+            hsl(241deg 65% 86%) 80%,
+            hsl(236deg 66% 85%) 85%,
+            hsl(231deg 67% 85%) 90%,
+            hsl(226deg 67% 85%) 95%,
+            hsl(221deg 68% 84%) 100%);
+    width: 800px;
+    height: 350px;
+    border-radius: 14px;
+}
+
+.text {
+    background-color: white;
+    position: absolute;
+    top: 200px;
+    width: 600px;
+    height: 350px;
+    border-radius: 15px;
+}
+
+.one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.two {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    color: #e72c66
+}
+
+.cards {
+    background-image: linear-gradient(180deg,
+            hsl(323deg 42% 93%) 0%,
+            hsl(318deg 45% 92%) 4%,
+            hsl(313deg 47% 92%) 9%,
+            hsl(308deg 49% 91%) 13%,
+            hsl(303deg 51% 91%) 18%,
+            hsl(298deg 52% 91%) 23%,
+            hsl(294deg 54% 90%) 27%,
+            hsl(289deg 55% 90%) 32%,
+            hsl(284deg 57% 89%) 36%,
+            hsl(279deg 58% 89%) 41%,
+            hsl(274deg 59% 89%) 46%,
+            hsl(270deg 60% 88%) 51%,
+            hsl(265deg 61% 88%) 56%,
+            hsl(260deg 62% 87%) 60%,
+            hsl(255deg 63% 87%) 65%,
+            hsl(250deg 64% 87%) 70%,
+            hsl(246deg 65% 86%) 75%,
+            hsl(241deg 65% 86%) 80%,
+            hsl(236deg 66% 85%) 85%,
+            hsl(231deg 67% 85%) 90%,
+            hsl(226deg 67% 85%) 95%,
+            hsl(221deg 68% 84%) 100%);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 850px;
+}
+
+.cards .left {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 40%;
+    height: 850px;
+}
+
+
+.cards .right {
+    width: 40%;
+    height: 850px;
+    display: flex;
+}
+
+.left .hosting {
+    margin-top: 200px;
+    width: 65%;
+    height: 450px;
+}
+
+.hosting h1 {
+    font-size: 36px;
+    color: #e72c66;
+}
+
+.hosting p {
+    margin-top: 25px;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.hosting button {
+    margin-top: 25px;
+    border: 2px solid #e72c66;
+    border-radius: 15px;
+    width: 145px;
+    height: 40px;
+    background-color: #e72c66;
+    color: white;
+    font-size: 16px;
+    font-weight: 200;
+
+}
+
+.right .prtone {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 50%;
+    height: inherit;
+}
+
+
+.right .prttwo {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 50%;
+    height: inherit;
+
+}
+
+.right .one {
+    display: block;
+    justify-content: center;
+    margin-top: 25px;
+    width: 80%;
+    height: 380px;
+    border: 2px solid #ffffff;
+    border-radius: 15px;
+    background-color: #ffffff;
+}
+
+
+.right .two {
+    width: 80%;
+    height: 320px;
+    border: 2px solid #ffffff;
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+
+
+.right .three {
+    margin-top: 25px;
+    width: 80%;
+    height: 320px;
+    border: 2px solid #ffffff;
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+
+
+.right .four {
+    background-color: #ffffff;
+    width: 80%;
+    height: 380px;
+    border: 2px solid #ffffff;
+    border-radius: 15px;
+}
+
+.right .circle_div{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right .text_div{
+    text-align: center;
+    width: 100%;
+    height: 280px;
+}
+.right .circle{
+    width:75px;
+    height: 75px;
+    border: 2px solid #ebf1fc;
+    background-color: #ebf1fc;
+    border-radius: 50%;
+}
+
+.right button{
+    color: #ebf1fc;
+    background-color: #e72c66;
+    border: 2px solid #e72c66;
+    width: 100px;
+    height: 35px;
+    border-radius: 15px;
+    margin-top: 15px;
+}
+
+.right h1{
+    font-size: 24px;
+    font-weight: 100;
+    margin-top: 15px;
+    color: #94b2ed;
+}
+
+.right p{
+    margin-top: 15px;
+    font-size: 16px;
+    color: gray;
+    line-height: 24px;
+}
+
+.right a{
+    font-size: 16px;
+    text-decoration: underline;
+    text-decoration-color:#94b2ed ;
+}
+
+@media (max-width:880px) and (min-width:601px) {
+
+    .cover {
+        height: 600px;
+    }
+
+    .grad {
+        width: 500px;
+        height: 300px;
+    }
+
+
+    .text {
+
+        width: 400px;
+        height: 300px;
+    }
+
+    .one {
+        font-size: 12px;
+    }
+
+    .two {
+        height: 200px;
+        font-size: 18px;
+    }
+
+    .cards {
+        display: block;
+        width: 100%;
+        height: 1275px;
+    }
+
+    .cards .left {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 425px;
+    }
+
+    .left .hosting {
+        display: block;
+        margin-top: 0px;
+        width: 65%;
+        height: 250px;
+    }
+
+    .hosting h1 {
+        font-size: 38px;
+        color: #e72c66;
+    }
+
+    .cards .right {
+        width: 100%;
+        height: 850px;
+    }
+
+
+    .right .prtone {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 50%;
+        height: inherit;
+    }
+
+
+    .right .prttwo {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 50%;
+        height: inherit;
+    }
+
+    .right .one {
+        display: block;
+        margin-top: 25px;
+        width: 80%;
+        height: 380px;
+    }
+
+
+    .right .two {
+        width: 80%;
+        height: 320px;
+    }
+
+
+    .right .three {
+        margin-top: 25px;
+        width: 80%;
+        height: 320px;
+    }
+
+
+    .right .four {
+        width: 80%;
+        height: 380px;
+    }
+}
+
+@media (max-width:1015px) and (min-width:881px){
+    .right .circle_div{
+        width: 100%;
+        height: 80px;
+    }
+    
+    .right .text_div{
+        width: 100%;
+        height:300px;
+    }
+
+    .right .circle{
+        width:60px;
+        height: 60px;
+        border: 2px solid #ebf1fc;
+        background-color: #ebf1fc;
+        border-radius: 50%;
+    }
+    
+.right button{
+    width: 90px;
+    height: 30px;
+    margin-top: 7px;
+}
+
+.right h1{
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.right p{
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+}
+
+@media (max-width:600px) {
+
+    .cover {
+        height: 500px;
+    }
+
+    .grad {
+        width: 450px;
+        height: 250px;
+    }
+
+
+    .text {
+        top: 175px;
+        width: 350px;
+        height: 250px;
+    }
+
+    .one {
+        font-size: 12px;
+    }
+
+    .two {
+        height: 150px;
+        font-size: 16px;
+    }
+
+    .cards {
+        display: block;
+        width: 100%;
+        height: 1625px;
+    }
+
+    .cards .left {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 425px;
+    }
+
+    .left .hosting {
+        display: block;
+        margin-top: 0px;
+        width: 65%;
+        height: 250px;
+    }
+
+    .hosting h1 {
+        font-size: 38px;
+        color: #e72c66;
+    }
+    .cards .right {
+        display: block;
+        width: 100%;
+        height: 1200px;
+    }
+
+
+    .right .prtone {
+        width: 100%;
+        height: 600px;
+    }
+
+
+    .right .prttwo {
+    
+        width: 100%;
+        height: 600px;
+    }
+
+    .right .one {
+        display: block;
+        margin-top: 25px;
+        width: 70%;
+        height: 270px;
+    }
+
+
+    .right .two {
+        width: 70%;
+        height: 270px;
+    }
+
+
+    .right .three {
+        margin-top: 25px;
+        width: 70%;
+        height: 270px;
+    }
+
+
+    .right .four {
+        width: 70%;
+        height: 270px;
+    }
+
+    .right .circle_div{
+        margin-top: 10px;
+        width: 100%;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .right .text_div{
+        text-align: center;
+        width: 100%;
+        height: 230px;
+    }
+
+    .right .circle{
+        width:50px;
+        height: 50px;
+        border: 2px solid #ebf1fc;
+        background-color: #ebf1fc;
+        border-radius: 50%;
+    }
+}
